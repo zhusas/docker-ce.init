@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #定义你自己的Registry国内加速器地址
-MIRRORS='"http://f23ccc88.m.daocloud.io"'
+MIRRORS='"http://xxxxxxx.m.daocloud.io"'
 
 #加载科大的docker-ce ubuntu的gpg key
 curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
