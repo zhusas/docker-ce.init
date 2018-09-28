@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#安装基础组件
+apt-get install -y software-properties-common curl
+
 #定义你自己的Registry国内加速器地址
 MIRRORS='"http://xxxxxxx.m.daocloud.io"'
 
